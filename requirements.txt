@@ -10,3 +10,4 @@ IMDbPY==2022.7.9
 psutil
 aiohttp
 pytz
+dnspython==2.3.0
