@@ -28,7 +28,7 @@ async def start(client, message):
                     InlineKeyboardButton('sᴜᴘᴘᴏʀᴛ', url='https://t.me/movie_on1')
                   ]]
         reply_markup = InlineKeyboardMarkup(buttons)
-        kd = await message.reply_photo(
+        kd = await message.reply_video(
         video=random.choice(PICS),
         caption=script.START_TXT.format(message.from_user.mention if message.from_user else message.chat.title, temp.U_NAME, temp.B_NAME), reply_markup=reply_markup)
         await asyncio.sleep(20)
@@ -53,7 +53,7 @@ async def start(client, message):
                     InlineKeyboardButton('sᴜʙsᴄʀɪʙᴇ ᴏᴜʀ  ᴄʜᴀɴɴᴇʟ', url="https://t.me/movie_a1")
                   ]]
         reply_markup = InlineKeyboardMarkup(buttons)
-        await message.reply_photo(
+        await message.reply_video(
             video=random.choice(PICS),
             caption=script.START_TXT.format(message.from_user.mention, temp.U_NAME, temp.B_NAME),
             reply_markup=reply_markup,
@@ -100,7 +100,7 @@ async def start(client, message):
                     InlineKeyboardButton('sᴜʙsᴄʀɪʙᴇ ᴏᴜʀ  ᴄʜᴀɴɴᴇʟ', url="https://t.me/movie_a1")
                   ]]
         reply_markup = InlineKeyboardMarkup(buttons)
-        await message.reply_photo(
+        await message.reply_video(
             video=random.choice(PICS),
             caption=script.START_TXT.format(message.from_user.mention, temp.U_NAME, temp.B_NAME),
             reply_markup=reply_markup,
