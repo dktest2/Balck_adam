@@ -28,8 +28,12 @@ async def start(client, message):
                     InlineKeyboardButton('sᴜᴘᴘᴏʀᴛ', url='https://t.me/movie_on1')
                   ]]
         reply_markup = InlineKeyboardMarkup(buttons)
-        kd = await message.reply_video(
-        video=random.choice(PICS),
+        await message.reply_chat_action(enums.ChatAction.TYPING)
+        m=await message.reply_sticker("CAACAgUAAxkBAAEDQb1k5wxpj6FgBlZ7mAe3wRo7vLXxTAACJwEAAsiUZBTiPWKAkUSmmjAE")
+        await asyncio.sleep(1)
+        await m.delete()
+        await message.reply_photo(
+            photo=random.choice(PICS),
         caption=script.START_TXT.format(message.from_user.mention if message.from_user else message.chat.title, temp.U_NAME, temp.B_NAME), reply_markup=reply_markup)
         await asyncio.sleep(20)
         await kd.delete()
@@ -53,8 +57,12 @@ async def start(client, message):
                     InlineKeyboardButton('sᴜʙsᴄʀɪʙᴇ ᴏᴜʀ  ᴄʜᴀɴɴᴇʟ', url="https://t.me/movie_a1")
                   ]]
         reply_markup = InlineKeyboardMarkup(buttons)
-        await message.reply_video(
-            video=random.choice(PICS),
+        await message.reply_chat_action(enums.ChatAction.TYPING)
+        m=await message.reply_sticker("CAACAgUAAxkBAAEDQb1k5wxpj6FgBlZ7mAe3wRo7vLXxTAACJwEAAsiUZBTiPWKAkUSmmjAE")
+        await asyncio.sleep(1)
+        await m.delete()
+        await message.reply_photo(
+            photo=random.choice(PICS),
             caption=script.START_TXT.format(message.from_user.mention, temp.U_NAME, temp.B_NAME),
             reply_markup=reply_markup,
             quote=True,
@@ -100,8 +108,12 @@ async def start(client, message):
                     InlineKeyboardButton('sᴜʙsᴄʀɪʙᴇ ᴏᴜʀ  ᴄʜᴀɴɴᴇʟ', url="https://t.me/movie_a1")
                   ]]
         reply_markup = InlineKeyboardMarkup(buttons)
-        await message.reply_video(
-            video=random.choice(PICS),
+        await message.reply_chat_action(enums.ChatAction.TYPING)
+        m=await message.reply_sticker("CAACAgUAAxkBAAEDQb1k5wxpj6FgBlZ7mAe3wRo7vLXxTAACJwEAAsiUZBTiPWKAkUSmmjAE")
+        await asyncio.sleep(1)
+        await m.delete()
+        await message.reply_photo(
+            photo=random.choice(PICS),
             caption=script.START_TXT.format(message.from_user.mention, temp.U_NAME, temp.B_NAME),
             reply_markup=reply_markup,
             quote=True,
