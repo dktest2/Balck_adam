@@ -135,7 +135,7 @@ Hᴇʀᴇ Is Tʜᴇ Hᴇʟᴘ Fᴏʀ Mʏ Cᴏᴍᴍᴀɴᴅs.</b>"""
 
 <b>🆓 ғʀᴇᴇ:</b> <code>{}</code>
 
-<b>⍟────[ @movie_a1 ]─────⍟</b>"""
+<b>⍟────[ RAVI KOHLI ]─────⍟</b>"""
 
     LOG_TEXT_G = """<b>#NewGroup
     
