@@ -144,15 +144,13 @@ Gʀᴏᴜᴘ = {} (<code>{}</code>)
 Tᴏᴛᴀʟ Mᴇᴍʙᴇʀs = <code>{}</code>
 
 Aᴅᴅᴇᴅ Bʏ - {}</b>
-BLACK ADAM
-"""
+By @{} """
     LOG_TEXT_P = """<b>#NewUser
     
 ID - <code>{}</code>
 
 Nᴀᴍᴇ - {}</b>
-BLACK ADAM
-"""
+By @{} """
     ALRT_TXT = """⚠️ 𝖧ᴇʏ !
     
 𝖲ᴇᴀʀᴄʜ 𝖸ᴏᴜʀ 𝖮ᴡɴ 𝖥ɪʟᴇ, 
